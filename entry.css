@@ -16,20 +16,11 @@ body {
 }
 
 .code-box:hover::after {
-    content: '复制';
+    content: '+';
     position: absolute;
     top: 0;
     right: 0;
-    background: #f5f5f5;
-    border: 1px solid #ccc;
     padding: 2px 8px;
     cursor: pointer;
-    border-radius: 3px;
     font-size: 12px;
-}
-
-.code-box.copied::after {
-    content: '已复制';
-    background: #4CAF50;
-    color: white;
 }
