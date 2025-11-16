@@ -1,32 +1,39 @@
-// 从URL加载代码
-async function loadCodeFromUrl() {
-    try {
-        // 这里替换成您想要的代码URL
-        const response = await fetch('https://raw.githubusercontent.com/fleetinglore/c51/main/3/1/main.c');
-        if (!response.ok) throw new Error('网络响应不正常');
+// 简化的 advent.js - 处理所有代码框
+async function loadAllCodeBoxes() {
+    const codeBoxes = document.querySelectorAll('.code-box');
+    
+    for (const box of codeBoxes) {
+        const title = box.getAttribute('data-title');
+        const codeUrl = box.getAttribute('data-code-url');
+        const codeElement = box.querySelector('code');
         
-        const code = await response.text();
-        
-        // 转义HTML特殊字符
-        const escapedCode = code
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#039;');
-        
-        // 将代码插入到容器中
-        const codeContainer = document.getElementById('codeContainer');
-        codeContainer.innerHTML = escapedCode;
-        
-        // 重新高亮代码
-        Prism.highlightAll();
-        
-    } catch (error) {
-        console.error('加载代码出错:', error);
-        // 如果加载失败，容器保持空白
+        if (codeUrl && codeElement) {
+            await loadCodeToElement(codeUrl, codeElement, title);
+        }
     }
 }
 
-// 页面加载时自动从URL加载代码
-window.addEventListener('DOMContentLoaded', loadCodeFromUrl);
+async function loadCodeToElement(url, element, title) {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error('网络响应不正常');
+        
+        const code = await response.text();
+        const escapedCode = code
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
+        
+        element.innerHTML = escapedCode;
+        
+        if (window.Prism) {
+            Prism.highlightElement(element);
+        }
+        
+    } catch (error) {
+        console.error(`加载代码出错 (${url}):`, error);
+    }
+}
+
+// 自动加载所有代码框
+document.addEventListener('DOMContentLoaded', loadAllCodeBoxes);
