@@ -15,7 +15,7 @@ body {
     margin-bottom: 5px;
 }
 
-.code-box:hover::after {
+.code-box::after {
     content: '+';
     position: absolute;
     top: 0;
