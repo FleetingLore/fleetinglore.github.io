@@ -5,8 +5,8 @@ class CodeBlock extends HTMLElement {
     
     connectedCallback() {
         const filename = this.getAttribute('filename');
-        const chapter1 = document.documentElement.getAttribute('data-chapter1');
-        const chapter2 = document.documentElement.getAttribute('data-chapter2');
+        const chapter1 = document.documentElement.getAttribute('chapter1');
+        const chapter2 = document.documentElement.getAttribute('chapter2');
         
         const codeUrl = this.generateCodeUrl(filename, chapter1, chapter2);
         
