@@ -1,10 +1,7 @@
-/* style.css */
 :root {
     --back_ground: #ffffff;
     --text: #111199;
     --local: #dddddd;
-    --shadow: #eeeeee;
-    --block: #cccccc;
 }
 body {
     background: var(--back_ground);
