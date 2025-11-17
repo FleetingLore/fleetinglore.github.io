@@ -16,7 +16,7 @@ class CodeBlock extends HTMLElement {
                     <span class="filename">${filename}</span>
                 </summary>
                 <div class="code-box">
-                    <pre><code class="language-c" data-code-url="${codeUrl}"></code></pre>
+                    <pre><code class="language-c"></code></pre>
                 </div>
             </details>
         `;
@@ -40,23 +40,3 @@ class CodeBlock extends HTMLElement {
 }
 
 customElements.define('code-block', CodeBlock);
-
-async function loadAllCodeBoxes() {
-    const codeBoxes = document.querySelectorAll('.code-box');
-    
-    for (const box of codeBoxes) {
-        const codeUrl = box.getAttribute('data-code-url');
-        const codeElement = box.querySelector('code');
-        await loadCodeToElement(codeUrl, codeElement);
-    }
-}
-
-async function loadCodeToElement(url, element) {
-    const response = await fetch(url);
-    const code = await response.text();
-    const escapedCode = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    element.innerHTML = escapedCode;
-    Prism.highlightElement(element);
-}
-
-document.addEventListener('DOMContentLoaded', loadAllCodeBoxes);
