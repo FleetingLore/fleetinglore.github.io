@@ -13,10 +13,12 @@ class CodeBlock extends HTMLElement {
         this.innerHTML = `
             <details>
                 <summary>
-                    <div class="code-box" data-title="${filename}">
-                        <pre><code class="language-c" data-code-url="${codeUrl}"></code></pre>
-                    </div>
+                    <span class="filename">${filename}</span>
+                    <span class="chapter-info">${chapter1} ${chapter2}</span>
                 </summary>
+                <div class="code-box" data-title="${filename}">
+                    <pre><code class="language-c" data-code-url="${codeUrl}"></code></pre>
+                </div>
             </details>
         `;
         
