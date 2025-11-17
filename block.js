@@ -31,12 +31,25 @@ class CodeBlock extends HTMLElement {
     }
     
     async loadCodeContent(url) {
-        const response = await fetch(url);
-        const code = await response.text();
-        const codeElement = this.querySelector('code');
-        codeElement.textContent = code;
-        hljs.highlightElement(codeElement);
+        try {
+            const response = await fetch(url);
+            const code = await response.text();
+            const codeElement = this.querySelector('code');
+            codeElement.textContent = code;
+            
+            if (window.hljs) {
+                hljs.highlightElement(codeElement);
+            }
+        } catch (error) {
+            console.error(`加载代码失败: ${url}`, error);
+        }
     }
 }
 
 customElements.define('code-block', CodeBlock);
+
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.hljs) {
+        hljs.highlightAll();
+    }
+});
