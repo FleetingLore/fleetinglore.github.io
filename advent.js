@@ -6,9 +6,7 @@ async function loadAllCodeBoxes() {
         const codeUrl = box.getAttribute('data-code-url');
         const codeElement = box.querySelector('code');
         
-        if (codeUrl && codeElement) {
-            await loadCodeToElement(codeUrl, codeElement, title);
-        }
+        await loadCodeToElement(codeUrl, codeElement, title);
     }
 }
 

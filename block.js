@@ -15,7 +15,7 @@ class CodeBlock extends HTMLElement {
                 <summary>
                     <span class="filename">${filename}</span>
                 </summary>
-                <div class="code-box" data-title="${filename}">
+                <div class="code-box">
                     <pre><code class="language-c" data-code-url="${codeUrl}"></code></pre>
                 </div>
             </details>
@@ -37,9 +37,7 @@ class CodeBlock extends HTMLElement {
             const codeElement = this.querySelector('code');
             codeElement.textContent = code;
             
-            if (window.Prism) {
-                Prism.highlightElement(codeElement);
-            }
+            Prism.highlightElement(codeElement);
         }
     }
 }
