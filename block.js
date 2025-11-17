@@ -25,7 +25,7 @@ class CodeBlock extends HTMLElement {
     
     generateCodeUrl(filename, chapter1, chapter2) {
         const baseUrl = "https://fleetinglore.github.io/c51_reference/c51";
-        const chapterPath = chapter1.replace('.', '/');
+        const chapterPath = `${chapter1}/${chapter2}`;
         return `${baseUrl}/${chapterPath}/${filename}`;
     }
     
