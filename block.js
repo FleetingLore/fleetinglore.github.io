@@ -35,7 +35,7 @@ class CodeBlock extends HTMLElement {
         const code = await response.text();
         const codeElement = this.querySelector('code');
         codeElement.textContent = code;
-        Prism.highlightElement(codeElement);
+        hljs.highlightElement(codeElement);
     }
 }
 
