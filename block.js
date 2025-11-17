@@ -11,15 +11,18 @@ class CodeBlock extends HTMLElement {
         const codeUrl = this.generateCodeUrl(filename, chapter1, chapter2);
         
         this.innerHTML = `
-            <div class="code-block-container">
+            <details>
+              <div class="code-block-container">
                 <div class="code-header">
                     <span class="filename">${filename}</span>
                     <span class="chapter-info">${chapter1} ${chapter2}</span>
                 </div>
                 <div class="code-content">
-                    <pre><code class="language-c" data-code-url="${codeUrl}">// 代码加载中...</code></pre>
+                  <pre><code class="language-c" data-code-url="${codeUrl}"></code></pre>
                 </div>
-            </div>
+              </div>
+            </details>
+
         `;
         
         this.loadCodeContent(codeUrl);
