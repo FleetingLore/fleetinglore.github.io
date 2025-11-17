@@ -5,24 +5,19 @@ class CodeBlock extends HTMLElement {
     
     connectedCallback() {
         const filename = this.getAttribute('filename');
-        const chapter1 = this.getAttribute('chapter1');
-        const chapter2 = this.getAttribute('chapter2');
+        const chapter1 = document.documentElement.getAttribute('data-chapter1');
+        const chapter2 = document.documentElement.getAttribute('data-chapter2');
         
         const codeUrl = this.generateCodeUrl(filename, chapter1, chapter2);
         
         this.innerHTML = `
             <details>
-              <div class="code-block-container">
-                <div class="code-header">
-                    <span class="filename">${filename}</span>
-                    <span class="chapter-info">${chapter1} ${chapter2}</span>
-                </div>
-                <div class="code-content">
-                  <pre><code class="language-c" data-code-url="${codeUrl}"></code></pre>
-                </div>
-              </div>
+                <summary>
+                    <div class="code-box" data-title="${filename}">
+                        <pre><code class="language-c" data-code-url="${codeUrl}"></code></pre>
+                    </div>
+                </summary>
             </details>
-
         `;
         
         this.loadCodeContent(codeUrl);
