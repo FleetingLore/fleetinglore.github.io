@@ -32,14 +32,31 @@ class CodeBlock extends HTMLElement {
     
     async loadCodeContent(url) {
         const response = await fetch(url);
-        if (response.ok) {
-            const code = await response.text();
-            const codeElement = this.querySelector('code');
-            codeElement.textContent = code;
-            
-            Prism.highlightElement(codeElement);
-        }
+        const code = await response.text();
+        const codeElement = this.querySelector('code');
+        codeElement.textContent = code;
+        Prism.highlightElement(codeElement);
     }
 }
 
 customElements.define('code-block', CodeBlock);
+
+async function loadAllCodeBoxes() {
+    const codeBoxes = document.querySelectorAll('.code-box');
+    
+    for (const box of codeBoxes) {
+        const codeUrl = box.getAttribute('data-code-url');
+        const codeElement = box.querySelector('code');
+        await loadCodeToElement(codeUrl, codeElement);
+    }
+}
+
+async function loadCodeToElement(url, element) {
+    const response = await fetch(url);
+    const code = await response.text();
+    const escapedCode = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    element.innerHTML = escapedCode;
+    Prism.highlightElement(element);
+}
+
+document.addEventListener('DOMContentLoaded', loadAllCodeBoxes);
