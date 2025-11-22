@@ -5,10 +5,8 @@ class CodeBlock extends HTMLElement {
     
     connectedCallback() {
         const filename = this.getAttribute('filename');
-        const chapter1 = document.documentElement.getAttribute('chapter1');
-        const chapter2 = document.documentElement.getAttribute('chapter2');
         
-        const codeUrl = this.generateCodeUrl(filename, chapter1, chapter2);
+        const codeUrl = this.generateCodeUrl(filename);
         
         this.innerHTML = `
             <details>
@@ -24,10 +22,9 @@ class CodeBlock extends HTMLElement {
         this.loadCodeContent(codeUrl);
     }
     
-    generateCodeUrl(filename, chapter1, chapter2) {
-        const baseUrl = "https://fleetinglore.github.io/c51_reference/c51/src";
-        const chapterPath = `${chapter1}/${chapter2}`;
-        return `${baseUrl}/${chapterPath}/${filename}`;
+    generateCodeUrl(filename) {
+        const baseUrl = "https://fleetinglore.github.io/c51_reference/project";
+        return `${baseUrl}/${filename}`;
     }
     
     async loadCodeContent(url) {

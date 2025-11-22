@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+.code-box {
+    position: relative;
+}
+
+.code-box::before {
+    content: attr(data-title);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.code-box::after {
+    content: '+';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.code-box.copied::after {
+    content: '-';
+}
+
+:root {
+    --back_ground: #ffffff;
+    --text: #111199;
+}
+body {
+    background: var(--back_ground);
+    color: var(--text);
+    font-family: "Fira Sans", sans-serif;
+    padding: 17px;
+}
+details {
+    background: var(--back_ground);
+    margin-bottom: 5px;
+}
+details[open] {
+    background: var(--back_ground);
+}
+summary {
+    list-style: none;
+    color: var(--text);
+    padding: 5px 0;
+    cursor: pointer;
+}
+summary:hover {
+    background: var(--back_ground);
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary::before {
+    content: "+";
+    margin-right: 12px;
+    display: inline-block;
+    width: 17px;
+    text-align: center;
+    color: var(--text);
+    font-weight: bold;
+}
+details[open] > summary::before {
+    content: "-";
+}
