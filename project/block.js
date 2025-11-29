@@ -23,7 +23,7 @@ class CodeBlock extends HTMLElement {
     }
     
     generateCodeUrl(filename) {
-        const baseUrl = "https://fleetinglore.github.io/c51_reference/project/";
+        const baseUrl = "https://fleetinglore.github.io/c51_reference/project";
         return `${baseUrl}/${filename}`;
     }
     
