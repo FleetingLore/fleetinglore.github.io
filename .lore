@@ -1,21 +1,25 @@
-: .idea #[sealed]
+* .idea #[sealed]
   ...
 
-: code #[sealed]
+* code #[sealed]
   ...
 
-: log
+* log
   ...
 
-: overlook
-  ...
+> 在 b 站制作的课程的目录
+* overlook
+  1_初中奥数一轮
+  2_初中奥数二轮
+  3_高中奥数一轮
+  4_高中奥数二轮
 
-: pages
-  : index
+* pages
+  * index
     ...
 
-  : log
+  * log
     ...
 
-: src #[sealed]
+* src #[sealed]
   ...
