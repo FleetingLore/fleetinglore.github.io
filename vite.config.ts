@@ -8,5 +8,11 @@ export default defineConfig({
     port: 5173,
     open: true
   },
-  assetsInclude: ['**/*.lore']
+  assetsInclude: ['**/*.lore'],
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: 'index.html'
+    }
+  }
 });
