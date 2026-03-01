@@ -4,31 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea353a18-1818-494a-9293-c4210a7f3728" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/render.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/local.lore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/开发日志/local.lore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/目录/local.lore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/目录/磁某的数学课/local.lore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/local.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.p" beforeDir="false" />
+    <list default="true" id="ea353a18-1818-494a-9293-c4210a7f3728" name="Changes" comment="。。。">
+      <change afterPath="$PROJECT_DIR$/.idea/fleetinglore.github.io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/.idea/shelf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/test.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/信息论/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/微波技术/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/数字信号处理/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/数字电子技术基础/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/数字电路逻辑设计/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/数字视频技术/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/现代通信技术/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/电子信息类专业导论/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/电子测量技术/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/电磁场与电磁波/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/电路与模拟电子技术基础/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/电路分析基础/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/通信原理/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/通信工程专业英语/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/专业课/高频电子电路/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/政治/2026肖三/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/政治/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/政治/自然辩证法概论/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/政治/马克思主义基本原理/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/凸优化理论/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/动力系统引论/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/同调代数导论/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/图论导引/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/复变函数论/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/拓扑学/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/控制论中的矩阵计算/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/数学分析第六版下册/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/极坐标与参数方程/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/泛函分析/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/物理学中的群论有限群篇/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/物理学中的群论李代数篇/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/群论及其应用/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/范畴论/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/高中小蓝本面积与面积方法/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/高等数学第七版下册/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/数学/高等数学第八版上册/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/笔记本/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/笔记本/电磁场与电磁波/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelf/书架/笔记本/电路分析基础/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/目录/编程/JS语法/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/目录/编程/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/中国近代史纲要/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/大学物理学上.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/大学物理学下.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/大学生心理健康教育.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/大学语文.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/大学语文/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/工程数学线性代数.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/时事报告.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/电路分析基础上.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/高等数学下/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoreApp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoreContent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoreViewer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/LoreFile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/LoreLine.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/LoreNavigator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.lore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lfc.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/2026.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/local.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/log/local.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index/local.lore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/log/local.lore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/render.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/local.lore" beforeDir="false" afterPath="$PROJECT_DIR$/_src/local.lore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/开发日志/local.lore" beforeDir="false" afterPath="$PROJECT_DIR$/public/开发日志/local.lore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/目录/local.lore" beforeDir="false" afterPath="$PROJECT_DIR$/public/目录/local.lore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/目录/磁某的数学课/local.lore" beforeDir="false" afterPath="$PROJECT_DIR$/public/目录/磁某的数学课/local.lore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,18 +136,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/corain/Documents/fleetinglore.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/corain/Documents/fleetinglore.github.io/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/目录/磁某的数学课" />
     </key>
   </component>
@@ -135,7 +220,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.31033.133" />
       </set>
     </attachedChunks>
   </component>
@@ -146,7 +231,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1772038801981</updated>
+      <workItem from="1772054989397" duration="8000" />
+      <workItem from="1772148157728" duration="873000" />
+      <workItem from="1772373511073" duration="383000" />
     </task>
+    <task id="LOCAL-00001" summary="。。。">
+      <option name="closed" value="true" />
+      <created>1772052826407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772052826407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="。。。" />
   </component>
 </project>

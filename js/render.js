@@ -14,7 +14,7 @@ export function renderLines(lines, container) {
                 // 处理冒号开头的 lore 路径
                 if (line.value.startsWith(':')) {
                     const parts = line.value.slice(1).split(':');
-                    const newPath = 'src/' + parts.join('/') + '/local.lore';
+                    const newPath = '_src/' + parts.join('/') + '/local.lore';
                     a.href = newPath;
                     a.setAttribute('data-lore-original', line.value);
                     a.setAttribute('data-internal-lore', 'true');

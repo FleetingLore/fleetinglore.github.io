@@ -29,7 +29,7 @@ async function loadAndRender(path, container) {
 
 // ----- 初始化 -----
 const container = document.getElementById('contentContainer');
-loadAndRender('src/local.lore', container);
+loadAndRender('_src/local.lore', container);
 
 // 事件委托：捕获所有内部 lore 链接的点击
 container.addEventListener('click', async (e) => {
