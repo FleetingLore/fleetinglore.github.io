@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea353a18-1818-494a-9293-c4210a7f3728" name="Changes" comment="迁移">
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/高等数学上/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/高等数学上/微分方程/local.lore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/高等数学上/微分方程/微分方程的基本概念/2026_3_1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/课程的书/高等数学上/微分方程/微分方程的基本概念/local.lore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/local.lore" beforeDir="false" afterPath="$PROJECT_DIR$/public/local.lore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/课程的书/高等数学下/local.lore" beforeDir="false" afterPath="$PROJECT_DIR$/public/课程的书/高等数学下/local.lore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +38,12 @@
     &quot;assignee&quot;: &quot;FleetingLore&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/FleetingLore/fleetinglore.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;484206d1-c74d-4867-8225-3d17fd4d4860&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:FleetingLore/fleetinglore.github.io.git",
+    "accountId": "484206d1-c74d-4867-8225-3d17fd4d4860"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -50,33 +55,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/corain/Documents/fleetinglore.github.io&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/corain/Documents/fleetinglore.github.io/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/corain/Documents/fleetinglore.github.io/public/课程的书/高等数学上",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "/Users/corain/Documents/fleetinglore.github.io/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/课程的书/高等数学上" />
+      <recent name="$PROJECT_DIR$/public/课程的书/高等数学上/微分方程" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/课程的书" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/课程的书/高等数学上/微分方程/微分方程的基本概念" />
+      <recent name="$PROJECT_DIR$/public/课程的书/高等数学上/微分方程" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/目录/磁某的数学课" />
     </key>
@@ -147,6 +158,7 @@
       <workItem from="1772054989397" duration="8000" />
       <workItem from="1772148157728" duration="873000" />
       <workItem from="1772373511073" duration="799000" />
+      <workItem from="1772415889055" duration="842000" />
     </task>
     <task id="LOCAL-00001" summary="。。。">
       <option name="closed" value="true" />
