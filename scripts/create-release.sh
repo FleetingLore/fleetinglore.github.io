@@ -3,7 +3,7 @@
 set -e
 
 VERSION="${1:-$(date +%Y.%m.%d)}"
-RELEASE_NAME="wein-collections-v${VERSION}"
+RELEASE_NAME="wein-collections-template-{VERSION}"
 TEMP_DIR="/tmp/${RELEASE_NAME}"
 
 rm -rf "${TEMP_DIR}"
@@ -18,9 +18,14 @@ if [ -d "static/js" ]; then
 fi
 
 mkdir -p "${TEMP_DIR}/static/lore"
-if [ -f "static/lore/local.lore" ]; then
-    cp static/lore/example.lore "${TEMP_DIR}/static/lore/"
-fi
+cat > "${TEMP_DIR}/static/lore/local.lore" << 'EOF'
+welcome!
+
+---
+
+example markdown > /_index
+example link | https://example.com
+EOF
 
 if [ -d "src" ]; then
     cp -r src "${TEMP_DIR}/"
@@ -36,7 +41,7 @@ cp .github/workflows/deploy.yml "${TEMP_DIR}/.github/workflows/" 2>/dev/null || 
 cp .gitignore "${TEMP_DIR}/" 2>/dev/null || true
 
 mkdir -p "${TEMP_DIR}/content"
-cat > "${TEMP_DIR}/content/_index.md" << 'EOF'
+cat > "${TEMP_DIR}/content/welcome.md" << 'EOF'
 +++
 title = "Example"
 date = 2026-03-07
@@ -45,4 +50,3 @@ date = 2026-03-07
 # Welcome!
 
 EOF
-fi
