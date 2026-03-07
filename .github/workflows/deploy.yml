@@ -19,7 +19,7 @@ jobs:
           git checkout -b template
           
           rm -rf content
-          rm static/lore
+          rm -rf static/lore
           rm -f README.md
           
           git add .
