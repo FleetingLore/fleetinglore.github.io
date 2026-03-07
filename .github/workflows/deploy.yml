@@ -19,7 +19,6 @@ jobs:
           git checkout -b template
           
           rm -rf content
-          rm scripts
           rm static/lore
           rm -f README.md
           
