@@ -7,7 +7,7 @@
     "dev": "vite"
   },
   "dependencies": {
-    "@wein/collections": "file:wein-0.1.0.tgz"
+    "@wein/collections": "file:wein-0.1.0.zip"
   },
   "devDependencies": {
     "@types/node": "^25.3.3",
