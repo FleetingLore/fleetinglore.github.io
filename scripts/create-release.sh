@@ -18,7 +18,7 @@ if [ -d "static/js" ]; then
 fi
 
 mkdir -p "${TEMP_DIR}/static/lore"
-if [ -f "static/lore/example.lore" ]; then
+if [ -f "static/lore/local.lore" ]; then
     cp static/lore/example.lore "${TEMP_DIR}/static/lore/"
 fi
 
