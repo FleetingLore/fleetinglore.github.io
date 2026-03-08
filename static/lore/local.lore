@@ -8,17 +8,5 @@
 
 ---
 
-+ 开发
-  2026 Logs > /logs/2026
-
----
-
-+ 测试专区
-  Markdown文章测试 > /blog/test/
-  新测试文章 > /blog/test-article/
-  嵌套文章 > /blog/nested-test/
-  logs测试 > /logs/test-log/
-  page模板测试 > /test-page/
-  HTML资源 = /test.html
-  GitHub | https://github.com
-  Google | https://www.google.com
++ 开发日志
+  2026 > /logs/2026
