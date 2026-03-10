@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f3f3;
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+br {
+    height: 1rem;
+}
+
+p {
+    margin-bottom: 1.2rem;
+}
+
+p:hover {
+    background-color: #dee6ee;
+}
+
+.atom {
+    color: #6b6b6b;
+}
+
+.title {
+    color: #01152e;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.link_lore {
+    color: #4bbfbf;
+}
+
+.link_md {
+    color: #4050b5
+}
+
+.link_html {
+    color: #05aa6d
+}
