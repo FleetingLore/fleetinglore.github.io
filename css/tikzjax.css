@@ -1,0 +1,14 @@
+.tikz {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.tikz svg {
+  max-width: 100%;
+  height: auto;
+  background: transparent;
+}
+
+.tikz path {
+  stroke-width: 1.2;
+}
