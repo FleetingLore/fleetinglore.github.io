@@ -1,11 +1,8 @@
-/* foldable.css - 与 h2 风格一致 */
-
 .foldable-section {
     margin: 0;
     padding: 0;
 }
 
-/* 标题行：完全模仿 h2 样式 */
 .foldable-title {
     display: flex;
     align-items: center;
@@ -23,7 +20,7 @@
     transition: border-color 0.2s ease;
 }
 
-/* 按钮样式：手型，可点，不干扰标题样式 */
+/* 按钮样式 */
 .foldable-toggle {
     display: inline-flex;
     justify-content: center;
@@ -44,7 +41,7 @@
     opacity: 0.7;
 }
 
-/* 标题文字：完全继承 h2 样式，始终可点跳转 */
+/* 标题文字 */
 .foldable-title-text {
     flex: 1;
     color: #020090;
@@ -62,11 +59,10 @@
     text-decoration: underline;
 }
 
-/* iframe 容器 */
 .foldable-content {
-    margin-top: 8px;
+    margin-top: 0;
     padding-left: 36px;
-    /* 与按钮宽度对齐，缩进 */
+    border-left: 3px solid #f3f3f3;
 }
 
 .foldable-content iframe {

@@ -1,4 +1,3 @@
-// foldable.js - 点按钮展开/折叠，点标题始终跳转
 (function () {
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
