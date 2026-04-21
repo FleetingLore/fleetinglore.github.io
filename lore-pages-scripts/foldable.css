@@ -76,13 +76,13 @@
     top: 20px;
     bottom: 0;
     width: 30px;
-    background: linear-gradient(to bottom, #e2eef3, #f3f3f3);
+    background: linear-gradient(to bottom, #e2eef3, #fff);
     pointer-events: none;
     transition: all 0.2s ease;
 }
 
 .foldable-title:hover+.foldable-content::before {
-    background: linear-gradient(to bottom, #cceaea, #f3f3f3);
+    background: linear-gradient(to bottom, #cceaea, #fff);
 }
 
 .foldable-content iframe {
