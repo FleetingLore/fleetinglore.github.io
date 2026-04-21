@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #fff;
+    background: #f3f3f3;
     font-family: "PingFang SC", sans-serif;
     line-height: 1.6;
     padding: 20px;
@@ -34,7 +34,7 @@ h1 {
 
 h1:hover {
     background-color: #f3f3f3;
-    border-top-color: #00d0d0;
+    border-top-color: #009090;
     border-top-style: solid;
     transition: border-color 0.2s ease;
 }
@@ -48,7 +48,7 @@ h2 {
 
 h2:hover {
     background-color: #f3f3f3;
-    border-top-color: #00d0d0;
+    border-top-color: #009090;
     border-top-style: dashed;
     transition: border-color 0.2s ease;
 }
@@ -62,7 +62,7 @@ h3 {
 
 h3:hover {
     background-color: #f3f3f3;
-    border-top-color: #00d0d0;
+    border-top-color: #009090;
     border-top-style: dashed;
     transition: border-color 0.2s ease;
 }
@@ -76,7 +76,7 @@ h4 {
 
 h4:hover {
     background-color: #f3f3f3;
-    border-top-color: #00d0d0;
+    border-top-color: #009090;
     border-top-style: dashed;
     transition: border-color 0.2s ease;
 }
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .link_url:hover {
-    border-bottom-color: #05aa6d;
+    border-bottom-color: #a9afff;
 }
 
 .link_lore {

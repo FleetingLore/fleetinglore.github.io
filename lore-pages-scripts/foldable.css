@@ -15,7 +15,7 @@
 
 .foldable-title:hover {
     background-color: #f3f3f3;
-    border-top-color: #00d0d0;
+    border-top-color: #009090;
     border-top-style: dashed;
     transition: border-color 0.2s ease;
 }
@@ -60,7 +60,17 @@
 .foldable-content {
     margin-top: 0;
     padding-left: 10px;
-    border-left: 6px solid #a9afff;
+    position: relative;
+}
+
+.foldable-content::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background: linear-gradient(to bottom, #009090, #a9afff);
 }
 
 .foldable-content iframe {
