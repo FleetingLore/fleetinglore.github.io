@@ -1,4 +1,3 @@
-/* 全局样式 */
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +14,6 @@ body {
 br {
     height: 40px;
 }
-
-/* 段落样式 */
 
 p {
     font-size: 15px;
