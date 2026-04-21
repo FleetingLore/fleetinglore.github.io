@@ -18,7 +18,6 @@
     background-color: #f3f3f3;
     border-top-color: #009090;
     border-top-style: solid;
-    transition: border-color 0.2s ease;
 }
 
 .foldable-toggle {
@@ -63,7 +62,6 @@
     padding-left: 10px;
 }
 
-
 .foldable-content::before {
     content: '';
     position: absolute;
@@ -71,14 +69,20 @@
     top: 14px;
     bottom: 0;
     width: 30px;
-    background: linear-gradient(to bottom, #b1bec1, #a1c0d1);
+    background: linear-gradient(to bottom, #e2eef3, #b2bfc5);
     pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.foldable-title:hover+.foldable-content::before {
+    background: linear-gradient(to bottom, #009090, #020090);
+    width: 32px;
 }
 
 .foldable-content iframe {
     display: block;
     width: 100%;
-    min-height: 500px;
+    min-height: 1000px;
     height: calc(100vh - 300px);
     border: none;
     background-color: #f3f3f3;
