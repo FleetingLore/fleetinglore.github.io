@@ -1,72 +1,72 @@
+/* foldable.css - 与 h2 风格一致 */
+
 .foldable-section {
-    margin: 1.25em 0;
-    border: 1px solid #eaeef2;
-    border-radius: 6px;
-    background-color: #fff;
-    overflow: hidden;
-    transition: border-color 0.2s ease;
+    margin: 0;
+    padding: 0;
 }
 
-.foldable-section:hover {
-    border-color: #00d0d0;
-}
-
+/* 标题行：完全模仿 h2 样式 */
 .foldable-title {
     display: flex;
     align-items: center;
-    padding: 10px 12px;
-    background-color: #fafbfc;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 500;
     color: #020090;
-    transition: background-color 0.2s ease;
+    font-size: 22px;
+    padding-top: 12px;
+    border-top: 2px solid #f3f3f3;
+    transition: border-color 0.2s ease;
 }
 
 .foldable-title:hover {
     background-color: #f3f3f3;
+    border-top-color: #00d0d0;
+    border-top-style: dashed;
+    transition: border-color 0.2s ease;
 }
 
-/* 展开/折叠按钮 (±) */
+/* 按钮样式：手型，可点，不干扰标题样式 */
 .foldable-toggle {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    font-size: 16px;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    font-size: 20px;
     font-weight: bold;
     color: #009090;
-    background-color: transparent;
-    border-radius: 3px;
-    transition: all 0.2s ease;
+    cursor: pointer;
+    user-select: none;
+    flex-shrink: 0;
+    transition: opacity 0.2s ease;
 }
 
-.foldable-section:hover .foldable-toggle {
-    color: #00d0d0;
+.foldable-toggle:hover {
+    opacity: 0.7;
 }
 
+/* 标题文字：完全继承 h2 样式，始终可点跳转 */
 .foldable-title-text {
     flex: 1;
     color: #020090;
+    cursor: pointer;
 }
 
 .foldable-title-text a {
-    color: #009090;
+    color: #020090;
     text-decoration: none;
-    border-bottom: 2px inset transparent;
-    transition: border-color 0.2s ease;
+    display: inline-block;
+    width: 100%;
 }
 
 .foldable-title-text a:hover {
-    border-bottom-color: #009090;
-    opacity: 1;
+    text-decoration: underline;
 }
 
+/* iframe 容器 */
 .foldable-content {
-    border-top: 1px solid #eaeef2;
-    background-color: #fff;
+    margin-top: 8px;
+    padding-left: 36px;
+    /* 与按钮宽度对齐，缩进 */
 }
 
 .foldable-content iframe {
