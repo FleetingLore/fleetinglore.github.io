@@ -9,14 +9,14 @@
     color: #020090;
     font-size: 22px;
     padding-top: 12px;
-    border-top: 2px solid #f3f3f3;
+    border-top: 2px dashed #f3f3f3;
     transition: border-color 0.2s ease;
 }
 
 .foldable-title:hover {
     background-color: #f3f3f3;
     border-top-color: #009090;
-    border-top-style: dashed;
+    border-top-style: solid;
     transition: border-color 0.2s ease;
 }
 
@@ -29,7 +29,7 @@
     margin-right: 8px;
     font-size: 20px;
     font-weight: bold;
-    color: #009090;
+    color: #1a4747;
     cursor: pointer;
     user-select: none;
     flex-shrink: 0;
@@ -69,8 +69,8 @@
     left: 0;
     top: 0;
     bottom: 0;
-    width: 6px;
-    background: linear-gradient(to bottom, #009090, #a9afff);
+    width: 30px;
+    background: linear-gradient(to bottom, #a9c0c5, #a9afff);
 }
 
 .foldable-content iframe {
