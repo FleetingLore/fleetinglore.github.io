@@ -12,6 +12,8 @@
     padding-top: 12px;
     border-top: 2px dashed #f3f3f3;
     transition: border-color 0.2s ease;
+    position: relative;
+    z-index: 1;
 }
 
 .foldable-title:hover {
@@ -34,6 +36,8 @@
     user-select: none;
     flex-shrink: 0;
     transition: opacity 0.2s ease;
+    position: relative;
+    z-index: 2;
 }
 
 .foldable-toggle:hover {
@@ -44,6 +48,8 @@
     flex: 1;
     color: #020090;
     cursor: pointer;
+    position: relative;
+    z-index: 2;
 }
 
 .foldable-title-text a {
@@ -59,14 +65,15 @@
 
 .foldable-content {
     margin-top: 0;
-    padding-left: 10px;
+    padding-left: 30px;
+    position: relative;
 }
 
 .foldable-content::before {
     content: '';
     position: absolute;
     left: 0;
-    top: 14px;
+    top: 0;
     bottom: 0;
     width: 30px;
     background: linear-gradient(to bottom, #e2eef3, #b2bfc5);
@@ -75,8 +82,7 @@
 }
 
 .foldable-title:hover+.foldable-content::before {
-    background: linear-gradient(to bottom, #009090, #020090);
-    width: 32px;
+    background: linear-gradient(to bottom, #cceaea, #9290e0);
 }
 
 .foldable-content iframe {
