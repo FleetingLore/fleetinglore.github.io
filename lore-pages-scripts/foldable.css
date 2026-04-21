@@ -73,7 +73,7 @@
     content: '';
     position: absolute;
     left: 0;
-    top: 0;
+    top: 20px;
     bottom: 0;
     width: 30px;
     background: linear-gradient(to bottom, #e2eef3, #b2bfc5);
@@ -91,5 +91,5 @@
     min-height: 1000px;
     height: calc(100vh - 300px);
     border: none;
-    background-color: #f3f3f3;
+    background-color: #fff;
 }
