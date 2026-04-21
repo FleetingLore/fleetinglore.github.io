@@ -82,7 +82,7 @@
 }
 
 .foldable-title:hover+.foldable-content::before {
-    background: linear-gradient(to bottom, #cceaea, #9290e0);
+    background: linear-gradient(to bottom, #cceaea, #f3f3f3);
 }
 
 .foldable-content iframe {
