@@ -6,6 +6,6 @@
         document.head.appendChild(script);
     }
 
-    loadScript('https://fleetinglore.github.io/lore-pages-scripts/styles.js');
-    loadScript('https://fleetinglore.github.io/lore-pages-scripts/foldable.js');
+    loadScript('https://fleetinglore.github.io/lore-pages-src/default/styles.js');
+    loadScript('https://fleetinglore.github.io/lore-pages-src/default/foldable.js');
 })();
