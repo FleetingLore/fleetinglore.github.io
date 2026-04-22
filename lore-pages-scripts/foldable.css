@@ -75,7 +75,7 @@
     left: 0;
     top: 20px;
     bottom: 0;
-    width: 30px;
+    width: 20px;
     background: linear-gradient(to bottom, #e2eef3, #fff);
     pointer-events: none;
     transition: all 0.2s ease;
