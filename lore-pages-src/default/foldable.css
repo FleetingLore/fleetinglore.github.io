@@ -88,8 +88,8 @@
 .foldable-content iframe {
     display: block;
     width: 100%;
-    min-height: 500px;
-    height: calc(100vh - 300px);
+    min-height: 100px;
+    height: 80vh;
     border: none;
     background-color: #fff;
 }
