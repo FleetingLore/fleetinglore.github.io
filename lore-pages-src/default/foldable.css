@@ -72,10 +72,10 @@
 .foldable-content::before {
     content: '';
     position: absolute;
-    left: 0;
+    left: 10px;
     top: 20px;
     bottom: 0;
-    width: 20px;
+    width: 10px;
     background: linear-gradient(to bottom, #e2eef3, #fff);
     pointer-events: none;
     transition: all 0.2s ease;
