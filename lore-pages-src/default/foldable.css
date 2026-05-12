@@ -1,95 +1,95 @@
 .foldable-section {
-    margin: 0;
-    padding: 0;
-    position: relative;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 .foldable-title {
-    display: flex;
-    align-items: center;
-    color: #020090;
-    font-size: 22px;
-    padding-top: 12px;
-    border-top: 2px dashed #f3f3f3;
-    transition: border-color 0.2s ease;
-    position: relative;
-    z-index: 1;
+  display: flex;
+  align-items: center;
+  color: #020090;
+  font-size: 22px;
+  padding-top: 12px;
+  border-top: 2px dashed #f3f3f3;
+  transition: border-color 0.2s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .foldable-title:hover {
-    background-color: #f3f3f3;
-    border-top-color: #009090;
-    border-top-style: solid;
+  background-color: #f3f3f3;
+  border-top-color: #009090;
+  border-top-style: solid;
 }
 
 .foldable-toggle {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 28px;
-    height: 28px;
-    margin-right: 8px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #1a4747;
-    cursor: pointer;
-    user-select: none;
-    flex-shrink: 0;
-    transition: opacity 0.2s ease;
-    position: relative;
-    z-index: 2;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a4747;
+  cursor: pointer;
+  user-select: none;
+  flex-shrink: 0;
+  transition: opacity 0.2s ease;
+  position: relative;
+  z-index: 2;
 }
 
 .foldable-toggle:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .foldable-title-text {
-    flex: 1;
-    color: #020090;
-    cursor: pointer;
-    position: relative;
-    z-index: 2;
+  flex: 1;
+  color: #020090;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
 }
 
 .foldable-title-text a {
-    color: #020090;
-    text-decoration: none;
-    display: inline-block;
-    width: 100%;
+  color: #020090;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
 }
 
 .foldable-title-text a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .foldable-content {
-    margin-top: 0;
-    padding-left: 10px;
-    position: relative;
+  margin-top: 0;
+  padding-left: 10px;
+  position: relative;
 }
 
 .foldable-content::before {
-    content: '';
-    position: absolute;
-    left: 10px;
-    top: 20px;
-    bottom: 0;
-    width: 10px;
-    background: linear-gradient(to bottom, #e2eef3, #fff);
-    pointer-events: none;
-    transition: all 0.2s ease;
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  bottom: 0;
+  width: 10px;
+  background: linear-gradient(to bottom, #e2eef3, #fff);
+  pointer-events: none;
+  transition: all 0.2s ease;
 }
 
-.foldable-title:hover+.foldable-content::before {
-    background: linear-gradient(to bottom, #cceaea, #fff);
+.foldable-title:hover + .foldable-content::before {
+  background: linear-gradient(to bottom, #cceaea, #fff);
 }
 
 .foldable-content iframe {
-    display: block;
-    width: 100%;
-    min-height: 100px;
-    height: 80vh;
-    border: none;
-    background-color: #fff;
+  display: block;
+  width: 100%;
+  min-height: 50px;
+  height: 40vh;
+  border: none;
+  background-color: #fff;
 }
