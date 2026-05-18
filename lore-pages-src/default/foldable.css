@@ -8,16 +8,17 @@
   display: flex;
   align-items: center;
   color: #020090;
+  background-color: #f3f3f3;
   font-size: 22px;
   padding-top: 12px;
-  border-top: 2px dashed #f3f3f3;
+  border-top: 2px dashed #fff;
   transition: border-color 0.2s ease;
   position: relative;
   z-index: 1;
 }
 
 .foldable-title:hover {
-  background-color: #f3f3f3;
+  background-color: #fff;
   border-top-color: #009090;
   border-top-style: solid;
 }
